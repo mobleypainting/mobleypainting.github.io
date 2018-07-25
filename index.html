@@ -1,281 +1,89 @@
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
-	<head>
-		<meta charset="utf-8">
-		<title>Mobley Painting LLC</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="description" content="The Website Of Mobley Painting LLC">
-		<meta name="author" content="John Mobley, CEO">
-		<style type="text/css">
-			body {
-				padding-top: 100px;
-				padding-bottom: 0px;
-			}
-			/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-right: 15px;
-  padding-left: 15px;
-}
+    <title>Narrow Jumbotron Template for Bootstrap</title>
 
-/* Custom page header */
-.header {
-  padding-bottom: 20px;
-  border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-}
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
+    <!-- Custom styles for this template -->
+    <link href="jumbotron-narrow.css" rel="stylesheet">
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
-}
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="../../assets/js/ie-emulation-modes-warning.js"></script>
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}
-		</style>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <body>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">About</a></li>
+            <li role="presentation"><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Project name</h3>
+      </div>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	</head>
-	<body>
+      <div class="jumbotron">
+        <h1>Jumbotron heading</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <p><a class="btn btn-lg btn-success" href="#" role="button">Sign up today</a></p>
+      </div>
 
-		
-		<div id="navbar" class="navbar navbar-fixed-top">
-			<div class="navbar-inner">
-				<div class="container">
-					<a class="brand" href="#">Mobley Painting LLC</a>
-					<!--input type="image" onclick="location.href='index.html'" class="brand" src="img/logo.gif" name="image" width="212" height="84"-->
-					<ul class="nav">
-						<li class="active">
-							<a href="#">Home</a>
-						</li>
-						<li>
-							<a href="mailto:mobleypaintingllc@gmail.com">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div id="fb-root"></div>
-			<script>
-				( function(d, s, id) {
-						var js, fjs = d.getElementsByTagName(s)[0];
-						if (d.getElementById(id))
-							return;
-						js = d.createElement(s);
-						js.id = id;
-						js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=266894066765245";
-						fjs.parentNode.insertBefore(js, fjs);
-					}(document, 'script', 'facebook-jssdk'));
-			</script>
-			<script>
-				window.fbAsyncInit = function() {
-					FB.init({
-						appId : 266894066765245,
-						channelUrl : connectwithcontractors.github.com / channel.html,
-						status : true,
-						cookie : true,
-						xfbml : true
-					});
+      <div class="row marketing">
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-					// Additional initialization code here
-				};
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-				// Load the SDK Asynchronously
-				( function(d) {
-						var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
-						if (d.getElementById(id)) {
-							return;
-						}
-						js = d.createElement('script');
-						js.id = id;
-						js.async = true;
-						js.src = "//connect.facebook.net/en_US/all.js";
-						ref.parentNode.insertBefore(js, ref);
-					}(document));
-			</script>
-			<!--iframe src="https://www.facebook.com/plugins/registration?
-			client_id=266894066765245&
-			redirect_uri=http%3A%2F%2Fconnectwithcontractors.github.com%2Ftools%2Fecho%2Findex.html%2F&
-			fields=name,email"
-			scrolling="auto"
-			frameborder="no"
-			style="border:none"
-			allowTransparency="true"
-			width="100%"
-			height="250"></iframe-->
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
 
-			<!-- Main hero unit for a primary marketing message or call to action -->
-			<div class="hero-unit">
-				<h3>Mobley Painting LLC</h3>
-				<p>
-					Residential And Commercial Painting
-				</p>
-				<p>
-					<!-- Example row of columns -->
-					<div class="row">
-						<div class="span2">
-							<p>
-								<a class="btn btn-large" href="mailto:mobleypaintingllc@gmail.com" style="color:black">Get Free Estimate</a></p>
-						</div>
-						<div class="span2">
-							<p>
-								<a class="btn btn-large" href="mailto:mobleypaintingllc@gmail.com" style="color:black">Apply For Work</a>
-							</p>
-						</div>
-						<div class="span2">
-							<p>
-								<a class="btn btn-large" href="mailto:mobleypaintingllc@gmail.com" style="color:black">Contact Us</a>
-							</p>
-						</div>
-					</div>
-				</p>
-			</div>
+        <div class="col-lg-6">
+          <h4>Subheading</h4>
+          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
-			<!-- Example row of columns 
-			<div class="row">
-				<div class="span4">
-					<h2>Free Estimates</h2>
-					<p>
-						View SlideSho <i class="icon-arrow-right"></i> Have Fap
-					</p>
-					<p>
-						<a class="btn btn-primary btn-large" href="#">View Pics</a>
-					</p>
-				</div>
-				<div class="span4">
-					<h2>Free Vids</h2>
-					<p>
-						Hit Play <i class="icon-arrow-right"></i> Pleasure Self
-					</p>
-					<p>
-						<a class="btn btn-primary btn-large" href="#">View Vids</a>
-					</p>
-				</div>
-				<div class="span4">
-					<h2>Benefactors</h2>
-					<p>
-						Pay What You Want <i class="icon-arrow-right"></i> Receive OC
-					</p>
-					<p>
-						<a class="btn btn-primary btn-large" href="#">Support Me</a>
-					</p>
-				</div>
-			</div>
--->
-			<hr>
+          <h4>Subheading</h4>
+          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
-			<footer>
-				<p>
-					<div class="row">
-						<div class="span4">
-							&copy; Mobley Painting LLC 2018
+          <h4>Subheading</h4>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+        </div>
+      </div>
 
-						</div>
-						<div class="span4">
-							<a href="https://twitter.com/share" class="twitter-share-button" data-lang="en">Tweet</a>
+      <footer class="footer">
+        <p>&copy; 2016 Company, Inc.</p>
+      </footer>
 
-							<script>
-								! function(d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0];
-									if (!d.getElementById(id)) {
-										js = d.createElement(s);
-										js.id = id;
-										js.src = "https://platform.twitter.com/widgets.js";
-										fjs.parentNode.insertBefore(js, fjs);
-									}
-								}(document, "script", "twitter-wjs");
-							</script>
-							<a href="https://twitter.com/mobleypainting" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @MobleyPainting</a>
+    </div> <!-- /container -->
 
-							<script>
-								! function(d, s, id) {
-									var js, fjs = d.getElementsByTagName(s)[0];
-									if (!d.getElementById(id)) {
-										js = d.createElement(s);
-										js.id = id;
-										js.src = "//platform.twitter.com/widgets.js";
-										fjs.parentNode.insertBefore(js, fjs);
-									}
-								}(document, "script", "twitter-wjs");
-							</script>
-						</div>
-						<div class="span4">
-							<div class="fb-like" data-href="http://mobleypainting.github.com" data-send="true" data-width="450" data-show-faces="true"></div>
-						</div>
 
-					</div>
-				</p>
-			</footer>
-		</div>
-		<script
-  src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
-  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-  crossorigin="anonymous"></script>
-	</body>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
 </html>
